@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <main>
+        <nav id="nav-bar">
+            <div class="logo">nancy barajas</div>
+            <div>
+                <ul class="nav-links">
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="projects.html">PROJECTS</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <nav id="hamburger-nav">
+            <div class="logo">nancy barajas</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="menu-links">
+                    <li>
+                        <a href="index.html" onclick="toggleMenu()">HOME</a>
+                    </li>
+                    <li>
+                        <a href="projects.html" onclick="toggleMenu()">PROJECTS</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" onclick="toggleMenu()">CONTACT</a>
+                    </li>
+                    </ul>
+                </div>
+        </nav>
+        
+        <section id="headshot" class="headshot-section">
+            <img src="/assets/headshot.jpeg" 
+            alt="Nancy Barajas" class="home-img">
+        </section>
+        
+        <section id="home" class="home-section">
+            <div class="home-text">
+                <h1>Hi, I'm Nancy!</h1>
+                <p>(Hablo Español!)</p>
+                <div class="home-btn-link">
+                <button class="btn contact-btn" 
+                onclick="location.href='contact.html'">Contact</button>
+            </div>
+            </div>
+        </section>
+        
+        <section id="about" class="about-section">
+            <div class="title">
+                <h2>Web Developer & Designer</h2>
+                <p>Based out of Las Vegas, NV
+                    <i class="fas fa-circle online-icon"></i>
+                </p>
+            </div>
+            <div class="skills">
+                <h2>Skills</h2>
+            <div class="cells">
+                <div class="cell"><i class="fa-brands fa-html5">
+                    <span>HTML</span>
+                </i></div>
+                <div class="cell"><i class="fa-brands fa-css3-alt">
+                    <span>CSS</span>
+                </i></div>
+                <div class="cell"><i class="fa-brands fa-js">
+                    <span>JavaScript</span>
+                </i></div>
+                <div class="cell"><i class="fa-brands fa-python">
+                    <span>Python</span>
+                </i></div>
+                <div class="cell"><i class="fa-brands fa-figma">
+                    <span>Figma</span>
+                </i></div>
+                <div class="cell"><i class="fa-brands fa-jira">
+                    <span>JIRA</span>
+                </i></div>
+                <div class="cell"><i class="fa-brands fa-github">
+                    <span>GitHub</span>
+                </i></div>    
+            </div>
+            </div>
+        </section>
+        
+        <!--Footer/ Footer Nav-->
+        <footer>
+            <nav id="footer-nav">
+                <div class="footer-nav-links">
+                    <ul class="nav-links">
+                        <li>
+                            <a href="index.html">HOME</a>
+                        </li>
+                        <li>
+                            <a href="projects.html">PROJECTS</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <p>&copy; 2026 by Nancy Barajas.</p>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

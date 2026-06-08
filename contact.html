@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <main>
+        <!--Nav Bar-->
+        <nav id="nav-bar">
+            <div class="logo">nancy barajas</div>
+            <div>
+                <ul class="nav-links">
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="projects.html">PROJECTS</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+                
+        <!--Hamburger Nav-->
+        <nav id="hamburger-nav">
+            <div class="logo">nancy barajas</div>
+                <div class="hamburger-menu">
+                    <div class="hamburger-icon" onclick="toggleMenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="menu-links">
+                        <li>
+                            <a href="index.html" onclick="toggleMenu()">HOME</a>
+                        </li>
+                        <li>
+                            <a href="projects.html" onclick="toggleMenu()">PROJECTS</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" onclick="toggleMenu()">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
+        
+        <!-- Contact socials -->
+         <div class="contact-socials">
+            <div class="contact">
+                <h2>Let's Connect!</h2>
+                <p>Response time is usually within two days or less... 
+                    but I am young and lit, <br>
+                    so it may take up to three days.
+                </p>
+            </div>
+            <div class="socials">
+                <a href="mailto:nabarajas25@gmail.com">
+                    <i class="fa fa-solid fa-envelope fa-4x"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/nancy-barajas/" target="_blank" 
+                aria-label="LinkedIn Profile">
+                    <i class="fa fab fa-linkedin fa-4x"></i>
+                </a>
+                <a href="https://github.com/nabarajas" target="_blank" 
+                aria-label="GitHub Profile">
+                    <i class="fa fa-brands fa-github fa-4x"></i>
+                </a>
+            </div>
+        </div>
+        <!--Footer/ Footer Nav-->
+        <footer>
+            <nav id="footer-nav">
+                <div class="footer-nav-links">
+                    <ul class="nav-links">
+                        <li>
+                            <a href="index.html">HOME</a>
+                        </li>
+                        <li>
+                            <a href="projects.html">PROJECTS</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <p>&copy; 2026 by Nancy Barajas.</p>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+    
+</body>
+</html>
